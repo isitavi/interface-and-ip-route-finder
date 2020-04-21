@@ -1,0 +1,27 @@
+#show ip route
+Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route, H - NHRP, l - LISP
+       a - application route
+       + - replicated route, % - next hop override
+
+Gateway of last resort is not set
+
+      134.100.15.70/8 is variably subnetted, 2 subnets, 2 masks
+S        192.168.11.98/32 [1/0] via 172.28.29.169
+S        139.10.11.92/28 [1/0] via 172.28.29.169
+      172.16.21.0/8 is variably subnetted, 2 subnets, 2 masks
+C        72.47.32.104/30 is directly connected, GigabitEthernet0/1
+L        72.137.16.106/32 is directly connected, GigabitEthernet0/1
+      192.168.31.0/8 is variably subnetted, 2 subnets, 2 masks
+C        103.10.55.220/30 is directly connected, Vlan850
+L        103.10.55.222/32 is directly connected, Vlan850
+      192.168..0/8 is variably subnetted, 2 subnets, 2 masks
+C        120.50.5.136/29 is directly connected, GigabitEthernet0/0
+L        120.50.5.138/32 is directly connected, GigabitEthernet0/0
+  
+
